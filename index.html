@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Блекджек</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h2>Карти ділера: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="hidden" src="./cards/BACK.png">
+        </div>
+
+        <h2>Твої карти: <span id="your-sum"></span></h2>
+        <div id="your-cards"></div>
+
+        <br>
+        <button id="hit">Карту!</button>
+        <button id="stay">Я все</button>
+        <p id="results"></p>
+	<br>
+	<button id="new_game" onclick="location.reload(); return false;">Нова гра</button>
+	<button id="rules" onClick="document.location='rules.html'">Правила гри</button>
+    </body>
+</html>
+
+
+
+
+
+

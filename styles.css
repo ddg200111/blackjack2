@@ -1,0 +1,12 @@
+body {
+color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+background: no-repeat center url("backg.jpg");
+}
+
+#start {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+}
